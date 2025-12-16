@@ -2,9 +2,6 @@
 
 A decentralized crowdfunding application built on Ethereum.
 
-![Contract Balance](path/to/your/image.png)
-*(Above: Proof of contract holding 0.2 ETH on the testnet)*
-
 ## Overview
 
 This project is a Solidity-based smart contract that allows users to fund the contract with ETH. It leverages Chainlink Data Feeds to enforce a minimum funding amount denominated in USD (e.g., $5 USD). Only the contract owner can withdraw the accumulated funds, and the contract employs security best practices to prevent vulnerabilities.
